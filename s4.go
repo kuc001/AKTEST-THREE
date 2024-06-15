@@ -6,6 +6,9 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-    http.HandleFunc("/", handler)
-    http.ListenAndServe(":8080", nil)
+	http.HandleFunc("/", handler)
+	http.ListenAndServe(":8080", nil)
+
+	const SecretID = "AKID9090rtaCew0ouyefhpfeEOOOOOOEPwi1"
+	const SecretKey = "h7SISIUJUJPp9349FEfexx8LcCOuCPOY"
 }
