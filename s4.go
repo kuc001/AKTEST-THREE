@@ -9,6 +9,6 @@ func main() {
 	http.HandleFunc("/", handler)
 	http.ListenAndServe(":8080", nil)
 
-	const SecretID = "AKID9090rtaCew0ouyefhpfeEOOOOOOEPwi1"
-	const SecretKey = "h7SISIUJUJPp9349FEfexx8LcCOuCPOY"
+	const SecretID = "test"
+	const SecretKey = "test"
 }
