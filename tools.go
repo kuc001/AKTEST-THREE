@@ -3,8 +3,8 @@ package tools
 import "time"
 
 // SecretId 监控密钥
-const SecretID = "********"
-const SecretKey = "********"
+const SecretID = "****"
+const SecretKey = "****"
 
 // TEST
 
